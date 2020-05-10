@@ -1,0 +1,3 @@
+[submodule "properties-repository"]
+	path = properties-repository
+	url = https://github.com/rahul-ghadge/properties-repository.git
