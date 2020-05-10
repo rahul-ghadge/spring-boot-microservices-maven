@@ -1,0 +1,22 @@
+
+
+
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 8761
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+#https://restcountries.eu/
+# Get Country details
+#https://restcountries.eu/rest/v2/name/bharat
+#https://restcountries.eu/rest/v2/name/eesti
+#https://restcountries.eu/rest/v2/name/united
