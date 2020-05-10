@@ -2,10 +2,13 @@
 spring:
   application:
     name: eureka-client
-# Disabling default favicon.ico
-  mvc:
-    favicon:
-      enabled: false
+
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: *
 
 
 server:
