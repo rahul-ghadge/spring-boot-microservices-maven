@@ -25,6 +25,7 @@
 
         <module>eureka-client</module>
         <module>country-details-client</module>
+        <module>ribbon-feign-client</module>
     </modules>
 
 

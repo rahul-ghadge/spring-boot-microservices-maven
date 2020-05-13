@@ -31,8 +31,3 @@ eureka:
     lease:
       duration: 5
 
-
-
-
-country:
-  client: country-client
