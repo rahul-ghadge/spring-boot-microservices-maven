@@ -1,4 +1,4 @@
-package com.arya.microservices.client;
+package com.arya.microservices.countryclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
