@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.arya.microservices</groupId>
-        <artifactId>spring-boot-microservices</artifactId>
+        <artifactId>spring-boot-microservices-maven</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
