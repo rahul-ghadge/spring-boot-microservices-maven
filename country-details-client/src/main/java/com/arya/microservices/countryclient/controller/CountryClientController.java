@@ -18,7 +18,7 @@ public class CountryClientController {
     @Autowired
     private WebClient.Builder webClientBuilder;
     
-
+    private Object response;
     
     @Value("${server.port}")
     private String port;
@@ -28,7 +28,6 @@ public class CountryClientController {
     @GetMapping("/{country}")
     public Object getCountryData(@PathVariable String country) {
 
-    	Object response = null;
         System.out.println("Fetching data from country : " + country);
 
         System.out.println("\n\n*********************************************");
@@ -36,7 +35,7 @@ public class CountryClientController {
         System.out.println("*********************************************\n");
 
         if (country.endsWith("ico"))
-            throw new RuntimeException("Don't know how in second call getting country name as : " + country);
+            return response;
         
         
 		response = webClientBuilder.build()
